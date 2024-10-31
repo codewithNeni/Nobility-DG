@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobility Digital Marketing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="#">Reels</a></li>
+      <li><a href="#">Documents</a></li>
+      <li><a href="#">YouTube</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+    <ul>
+      <li><img class="logo" src="Assets/logo.webp" alt=""></li>
+      <li class="hideOnMobile"><a href="#">Reels</a></li>
+      <li class="hideOnMobile"><a href="#">Documents</a></li>
+      <li class="hideOnMobile"><a href="#">YouTube</a></li>
+      <li class="hideOnMobile"><a href="#">Facebook</a></li>
+      <li class="hideOnMobile"><a href="#">Login</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+
+  </script>
+
+  <!-- Reels Section Starts Here -->
+
+  <section class="reels-section">
+    <h2 class="section-title">Our Featured Reels</h2>
+    <div class="reels-grid">
+        <!-- Reel 1 -->
+        <div class="reel">
+            <div class="reel-video">
+                <video width="450" controls src="Assets/sample video.mp4"></video>
+            </div>
+            <p class="reel-description">Reel-Description</p>
+        </div>
+        <!-- Reel 2 -->
+        <div class="reel">
+            <div class="reel-video">
+              <video width="450" controls src="Assets/sample video.mp4"></video>
+            </div>
+            <p class="reel-description">Reel-Description</p>
+        </div>
+        <!-- Reel 3 -->
+        <div class="reel">
+            <div class="reel-video">
+              <video width="450" controls src="Assets/sample video.mp4"></video>
+            </div>
+            <p class="reel-description">Reel-Description</p>
+        </div>
+        <!-- Reel 4 -->
+        <div class="reel">
+            <div class="reel-video">
+              <video width="450" controls src="Assets/sample video.mp4"></video>
+            </div>
+            <p class="reel-description">Reel-Description</p>
+        </div>
+        <!-- Reel 5 -->
+        <div class="reel">
+            <div class="reel-video">
+              <video width="450" controls src="Assets/sample video.mp4"></video>
+            </div>
+            <p class="reel-description">Reel-Description</p>
+        </div>
+        <!-- Reel 6 -->
+        <div class="reel">
+            <div class="reel-video">
+              <video width="450" controls src="Assets/sample video.mp4"></video>
+            </div>
+            <p class="reel-description">Reel-Description</p>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
