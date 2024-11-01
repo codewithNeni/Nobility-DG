@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobility Digital Marketing</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="social-style.css">
+</head>
+
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960"
+            width="26">
+            <path
+              d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+          </svg></a></li>
+      <li><a href="index.html">Reels</a></li>
+      <li><a href="social-media.html">Social Media Posts</a></li>
+      <li><a href="funnel.html">Funnels</a></li>
+    </ul>
+    <ul>
+      <li><img class="logo" src="Assets/logo.webp" alt=""></li>
+      <li class="hideOnMobile"><a href="index.html">Reels</a></li>
+      <li class="hideOnMobile"><a href="social-media.html">Social Media Posts</a></li>
+      <li class="hideOnMobile"><a href="funnel.html">Funnels</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+            viewBox="0 96 960 960" width="26">
+            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+          </svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+
+  </script>
+
+  <!-- Social Media Section -->
+
+  <div class="social-media-section">
+    <h2 class="section-heading">Stay Connected with Us</h2>
+    <p class="section-description">Check out our latest updates and news on social media.</p>
+    <div class="post-grid">
+
+      <!-- Sample Post Card 1 -->
+      <div class="post-card">
+        <div class="post-image" style="background-image: url('https://via.placeholder.com/300/063880/fff');"></div>
+        <div class="post-content">
+          <h3 class="post-title">Exciting News</h3>
+          <p class="post-description">We’re thrilled to announce our latest achievements! Join us in celebrating and
+            discover what’s next.</p>
+          <a href="#" class="post-link">Read More</a>
+        </div>
+      </div>
+
+      <!-- Sample Post Card 2 -->
+      <div class="post-card">
+        <div class="post-image" style="background-image: url('https://via.placeholder.com/300/ff7b00/fff');"></div>
+        <div class="post-content">
+          <h3 class="post-title">Our Community</h3>
+          <p class="post-description">Learn more about our community and join the conversation.</p>
+          <a href="#" class="post-link">Read More</a>
+        </div>
+      </div>
+
+      <!-- Sample Post Card 3 -->
+      <div class="post-card">
+        <div class="post-image" style="background-image: url('https://via.placeholder.com/300/555/fff');"></div>
+        <div class="post-content">
+          <h3 class="post-title">Upcoming Events</h3>
+          <p class="post-description">Stay tuned for our upcoming events and special activities.</p>
+          <a href="#" class="post-link">Read More</a>
+        </div>
+      </div>
+      <!-- Sample Post Card 4 -->
+      <div class="post-card">
+        <div class="post-image" style="background-image: url('https://via.placeholder.com/300/555/fff');"></div>
+        <div class="post-content">
+          <h3 class="post-title">Upcoming Events</h3>
+          <p class="post-description">Stay tuned for our upcoming events and special activities.</p>
+          <a href="#" class="post-link">Read More</a>
+        </div>
+      </div>
+
+      <!-- Sample Post Card 5 -->
+      <div class="post-card">
+        <div class="post-image" style="background-image: url('https://via.placeholder.com/300/ff7b00/fff');"></div>
+        <div class="post-content">
+          <h3 class="post-title">Our Community</h3>
+          <p class="post-description">Learn more about our community and join the conversation.</p>
+          <a href="#" class="post-link">Read More</a>
+        </div>
+      </div>
+
+      <!-- Sample Post Card 6 -->
+      <div class="post-card">
+        <div class="post-image" style="background-image: url('https://via.placeholder.com/300/063880/fff');"></div>
+        <div class="post-content">
+          <h3 class="post-title">Exciting News</h3>
+          <p class="post-description">We’re thrilled to announce our latest achievements! Join us in celebrating and
+            discover what’s next.</p>
+          <a href="#" class="post-link">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
